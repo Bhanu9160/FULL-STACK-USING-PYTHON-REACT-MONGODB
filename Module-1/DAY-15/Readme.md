@@ -1,4 +1,4 @@
-# Day 16 - Flask Redirect & url_for()
+# Day 15 - Flask Redirect & url_for()
 
 ## Objective
 
