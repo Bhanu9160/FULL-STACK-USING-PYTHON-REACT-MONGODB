@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Flask Static Files</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+    <h1>Welcome to Flask</h1>
+    <p>This page uses CSS,JavaScript and images from the static foder</p>
+    <img src="{{url_for('static',filename='images/logo.png')}}" alt="Logo" width="250">
+    <br><br>
+    <button onclick="showMessage()">Click Me</button>
+    <script src="{{url_for('static',filename='js/script.js')}}"></script>
+</body>
+</html>
